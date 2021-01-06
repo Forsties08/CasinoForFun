@@ -1,0 +1,86 @@
+Arguments: 
+  C:\Users\Megaport\AppData\Local\Volta\tools\image\node\14.15.4\node.exe E:\Developpement\EvoWide\CasinoForFun\client\.yarn\releases\yarn-1.22.10.cjs set version pnpm
+
+PATH: 
+  C:\Users\Megaport\AppData\Local\Volta\tools\image\yarn\1.22.5\bin;C:\Users\Megaport\AppData\Local\Volta\tools\image\node\14.15.4;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\Megaport\AppData\Local\Microsoft\WindowsApps;C:\Program Files\PuTTY\;E:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\src\flutter\bin;F:\Program Files\PostgreSQL\12\bin;F:\Program Files\WorldPainter;E:\Developpement\EvoWide\bash;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\Megaport\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Megaport\AppData\Local\Programs\Python\Python37\;C:\Users\Megaport\AppData\Local\Microsoft\WindowsApps;E:\Programs\Microsoft VS Code\bin;C:\Users\Megaport\AppData\Roaming\npm;C:\Users\Megaport\.dotnet\tools;
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: Release not found: pnpm
+      at E:\Developpement\EvoWide\CasinoForFun\client\.yarn\releases\yarn-1.22.10.cjs:98328:17
+      at Generator.next (<anonymous>)
+      at step (E:\Developpement\EvoWide\CasinoForFun\client\.yarn\releases\yarn-1.22.10.cjs:310:30)
+      at E:\Developpement\EvoWide\CasinoForFun\client\.yarn\releases\yarn-1.22.10.cjs:321:13
+      at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+npm manifest: 
+  {
+    "private": true,
+    "scripts": {
+      "dev": "vite --port 3333 --open",
+      "build": "cross-env NODE_ENV=production vite-ssg build --script async"
+    },
+    "dependencies": {
+      "@vueuse/core": "^4.0.0",
+      "nprogress": "^0.2.0",
+      "vue": "^3.0.4",
+      "vue-i18n": "9.0.0-beta.8",
+      "vue-router": "^4.0.1"
+    },
+    "devDependencies": {
+      "@antfu/eslint-config-vue": "^0.4.3",
+      "@iconify/json": "^1.1.276",
+      "@purge-icons/generated": "^0.4.1",
+      "@tailwindcss/typography": "^0.3.1",
+      "@types/nprogress": "^0.2.0",
+      "@typescript-eslint/eslint-plugin": "^4.11.0",
+      "@vue/compiler-sfc": "^3.0.4",
+      "@vue/server-renderer": "^3.0.4",
+      "@vuedx/typescript-plugin-vue": "^0.2.3",
+      "autoprefixer": "^10.1.0",
+      "cross-env": "^7.0.3",
+      "eslint": "^7.16.0",
+      "markdown-it-shiki": "^0.0.2",
+      "pnpm": "^5.14.1",
+      "postcss-nested": "^5.0.3",
+      "tailwindcss": "^2.0.2",
+      "typescript": "^4.1.3",
+      "vite": "^1.0.0-rc.13",
+      "vite-plugin-components": "^0.5.5",
+      "vite-plugin-icons": "^0.1.0",
+      "vite-plugin-md": "^0.1.5",
+      "vite-plugin-pwa": "^0.1.7",
+      "vite-plugin-voie": "^0.4.1",
+      "vite-ssg": "^0.1.0",
+      "voie-pages": "^0.4.0"
+    },
+    "pnpm": {
+      "overrides": {
+        "postcss": "8"
+      }
+    },
+    "eslintConfig": {
+      "extends": "@antfu/eslint-config-vue",
+      "rules": {
+        "no-unused-vars": "off",
+        "@typescript-eslint/no-unused-vars": "off"
+      }
+    },
+    "volta": {
+      "node": "14.15.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
