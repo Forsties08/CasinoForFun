@@ -71,8 +71,6 @@ module.exports = {
       },
     },
     fontFamily: {
-      body: ['Asul', 'ui-sans-serif'],
-      display: ['Asul', 'ui-sans-serif'],
       sans: ['Asul', 'ui-sans-serif'],
     },
   },

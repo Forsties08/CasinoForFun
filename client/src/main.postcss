@@ -2,6 +2,8 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@import url('https://fonts.googleapis.com/css2?family=Asul&display=swap');
+
 html,
 body,
 #app {
@@ -59,4 +61,51 @@ html.dark .shiki-light {
 
 html:not(.dark) .shiki-dark {
   display: none;
+}
+
+.card {
+  perspective: 600px;
+}
+
+.card-animated {
+  transition: all 2s ease 0s;
+}
+
+.card-inner {
+  transition: transform 0.4s;
+  transform-style: preserve-3d;
+}
+
+.flipped .card-inner {
+  transform: rotateY(180deg);
+  transition: transform 0.3s;
+}
+
+.front-face,
+.back-face {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+}
+
+.back-face {
+  transform: rotateY(180deg);
+}
+
+.back-face .pattern {
+  background: url('/background.png');
+}
+
+.card-stack {
+  position: relative;
+}
+
+.card-stack li {
+  position: absolute;
+  top: 0;
+}
+
+.h-screen {
+  height: calc(100vh - 2rem) !important;
 }
